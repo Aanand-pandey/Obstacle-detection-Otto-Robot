@@ -1,5 +1,31 @@
 # 🤖 Obstacle Detection Otto Robot
 
+<table width="100%">
+<tr>
+
+<td width="33%" valign="top" align="center">
+  <img src="https://github.com/Aanand-pandey/Obstacle-detection-Otto-Robot/blob/main/photo_4_2026-05-01_20-01-18.jpg" width="100%"/>
+</td>
+
+<td width="33%" valign="top" align="center">
+  <img src="https://github.com/Aanand-pandey/Obstacle-detection-Otto-Robot/blob/main/photo_3_2026-05-01_20-01-18.jpg" width="100%"/>
+</td>
+
+<td width="33%" valign="top" align="center">
+  <img src="https://github.com/Aanand-pandey/Obstacle-detection-Otto-Robot/blob/main/photo_1_2026-05-01_20-01-18.jpg" width="100%"/>
+</td>
+
+</tr>
+</table>
+
+---
+
+An Arduino-based autonomous robot that detects and avoids obstacles using ultrasonic sensing and servo-based movement. Inspired by Otto DIY robot design.
+
+
+
+
+
 An Arduino-based autonomous robot that detects and avoids obstacles using ultrasonic sensing and servo-based movement. Inspired by Otto DIY robot design.
 
 ---
@@ -43,15 +69,3 @@ This project demonstrates a simple yet effective obstacle avoidance system using
 3. Upload the Arduino code using Arduino IDE  
 4. Power the robot using battery supply  
 5. Place robot on flat surface and start  
-
----
-
-## 💻 Code
-```cpp
-// Example logic (simplified)
-if(distance < 20) {
-  stop();
-  turnRight();
-} else {
-  moveForward();
-}
