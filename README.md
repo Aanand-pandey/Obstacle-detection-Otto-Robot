@@ -68,4 +68,7 @@ This project demonstrates a simple yet effective obstacle avoidance system using
 2. Connect servo motors to PWM pins  
 3. Upload the Arduino code using Arduino IDE  
 4. Power the robot using battery supply  
-5. Place robot on flat surface and start  
+5. Place robot on flat surface and start
+
+## 👨‍💻 Author
+**Aanand Pandey** 
